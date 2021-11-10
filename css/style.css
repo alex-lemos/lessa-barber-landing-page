@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.margin-left{
+    margin-left: 30px;
+}
+
+.banner-call-to-action{
+    height: 100vh;
+
+    background-image: url('/assets/bg_handsome-man-cutting-beard-at-a-barber-salon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-call-to-action__svg{
+    width: 100px;
+    height: 100px;
+
+    padding-top: 30px;
+}
+
+.banner-call-to-action__description{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+.banner-call-to-action__description h1{
+    margin-bottom: 10px;
+}
+
+.banner-call-to-action__description__text{
+    background-color: rgb(179, 136, 28);
+
+    font-weight: 600;
+
+}
+
+.banner-call-to-action__description button{
+    margin-top: 20px;
+}
+
+
+.banner-call-to-action__buttom__link{
+    padding: 5px 20px 5px 20px;
+
+    font-weight: 400;
+
+    background-color: white;
+    color: rgb(179, 136, 28);
+
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 1px 5px 2px rgb(36, 27, 6);
+
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.banner-call-to-action__buttom__link:hover{
+    color: white;
+    
+    background-color: rgb(179, 136, 28);
+}
+
+.banner-call-to-action__links{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 30%;
+}
+
+.banner-call-to-action ul{
+    display: flex;
+
+    list-style: none;
+}
+
+.banner-call-to-action__links li{
+    border-bottom: 1px solid rgb(179, 136, 28);
+    
+    padding-bottom: 5px;
+}
+
+.banner-call-to-action__links__redes-sociais{
+    color: white;
+
+    font-weight: 200;
+    font-size: 12px;
+
+    text-decoration: none;
+}
