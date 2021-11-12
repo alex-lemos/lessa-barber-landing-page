@@ -55,12 +55,14 @@ header{
 }
 
 .banner-call-to-action__description button{
-    margin-top: 20px;
+    margin-top: 60px;
+
+    border: none;
 }
 
 
 .banner-call-to-action__buttom__link{
-    padding: 5px 20px 5px 20px;
+    padding: 10px 25px 10px 25px;
 
     font-weight: 400;
 
@@ -86,19 +88,15 @@ header{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
-    height: 30%;
-}
-
-.banner-call-to-action ul{
-    display: flex;
-
-    list-style: none;
+    
+    height: 40vh;
 }
 
 .banner-call-to-action__links li{
     border-bottom: 1px solid rgb(179, 136, 28);
-    
+
+    list-style: none;
+
     padding-bottom: 5px;
 }
 
@@ -109,4 +107,39 @@ header{
     font-size: 12px;
 
     text-decoration: none;
+}
+
+/* Segunda parte */
+
+.table-price-service{
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-price-service__title{
+    margin-bottom: 25px;
+}
+
+.table-price-service__card{
+    display: flex;
+
+    
+}
+
+.table-price-service__list-services{
+    list-style: none;
+/* 
+    display: flex; */
+}
+
+.table-price-service__price-services{
+    list-style: none;
+    
+    text-align: center;
+
+    margin-left: 60px;
 }
