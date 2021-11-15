@@ -12,7 +12,7 @@
 .banner-call-to-action{
     height: 100vh;
 
-    background-image: url('./assets/bg_handsome-man-cutting-beard-at-a-barber-salon.jpg');
+    background-image: url('../assets/bg_handsome-man-cutting-beard-at-a-barber-salon.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
